@@ -1,0 +1,26 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1A78C2;
+    text-align: center;
+    color: #A3C9E7;
+  }
+
+  .footer-link.hover{
+    color: white;
+}
+
+.footer-link{
+    color: white;
+}
+
+.card-custom-style{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #fafafa;
+    background-image: linear-gradient(to bottom right, #dfdfdf, #d7d2cc);
+    border-radius: 10px;
+}

@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "jsx": "react",
+        "watch": true,
+        "target": "ES5",
+        "lib": ["ES6", "dom"],
+        "resolveJsonModule": true
+    }
+}
