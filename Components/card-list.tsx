@@ -1,16 +1,20 @@
 import * as React from 'react';
-import * as products from '../data/products.json';
 import Card from "./card";
+import { Product } from '..';
 
-function CardList() {
+interface productProps {
+    data: Array<Product>
+}
+function CardList(props: productProps) {
+
     return (
         <div className="row">
-            {products.map((product, index) => {
-                return <Card image={product.img} title={product.Title} description={product.Description}/>
-            })}
+        {props.data.map((product, index) => {
+        console.log(product.title);
+        return <Card image={product.image} title={product.title} description={product.description}/>
+        })}
         </div>
     );
 }
-
 
 export default CardList;

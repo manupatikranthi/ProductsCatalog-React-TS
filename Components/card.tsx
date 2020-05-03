@@ -10,7 +10,7 @@ interface CardProps {
 
 function Card (props: CardProps) {
     return (
-        <div className="card col-md-2 card-custom-style">
+        <div className="card col-md-2 text-white bg-dark card-custom-style">
             <img src={props.image} alt="image" className="card-img-top"/>
             <div className="card-body">
             <h5 className="card-title">{props.title}</h5>
